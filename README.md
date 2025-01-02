@@ -84,9 +84,6 @@ X | - | -
 The winner is X
 ```
 
-## Known Issues
-- The diagonal win check contains a bug. The condition for the first diagonal should be `(board[0] == board[4] == board[8] and board[0] != "-")`.
-
 ## How to Run
 1. Install Python (if not already installed).
 2. Copy the code into a `.py` file.
